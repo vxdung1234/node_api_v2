@@ -1,0 +1,16 @@
+{
+  "name": "nodejs_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "debug": "nodemon --inspect server.js"
+  },
+  "author": "DungVo",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
