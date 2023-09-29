@@ -30,7 +30,7 @@ app.use('^/$|/index(.html)?', (req, res) => {
 })
 
 // Routes
-
+app.use('/register', require('./routes/register'));
 
 // Use for error routes
 app.all('*', (req, res) => {

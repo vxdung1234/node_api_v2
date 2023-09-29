@@ -15,3 +15,10 @@ d37181ec-0dd2-4261-88a4-67bd39289ddc	2023-09-29	21:17:04	GET	undefined	/favicon.
 d1081c97-514a-450c-86d9-1d003acba490	2023-09-29	21:17:33	GET	https://www.google.com	/
 f1b4f7ee-c347-4403-be06-d7c1974d23a5	2023-09-29	21:17:47	OPTIONS	https://www.google.com	/
 90a90641-a52c-417a-afed-71ba5739083d	2023-09-29	21:17:47	GET	https://www.google.com	/
+ff7b1a59-b599-4c7d-b127-fe00df037626	2023-09-29	22:07:43	POST	undefined	/register
+615ca941-3418-40c1-aeae-c6512df787bc	2023-09-29	22:08:08	POST	undefined	/register
+49643a71-6961-4a90-8249-81ff246e675d	2023-09-29	22:09:00	POST	undefined	/register
+777ff242-996e-41dd-826d-d60905471762	2023-09-29	22:09:31	POST	undefined	/register
+9a28d948-fd85-4760-80f4-2b14589314e5	2023-09-29	22:10:07	POST	undefined	/register
+3e9b33b9-8f0c-407f-a9a4-ff8baa8e0928	2023-09-29	22:10:22	POST	undefined	/register
+4783bdd0-9014-477c-8028-d979d982ef9d	2023-09-29	22:10:51	POST	undefined	/register
