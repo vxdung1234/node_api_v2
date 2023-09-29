@@ -1,0 +1,2 @@
+84a92940-837f-4a7a-8582-1667544f6c51	2023-09-29	21:17:33	Error: https://www.google.com is not allowed by CORS
+8ad5a240-fa40-4712-b244-55698e326f95	2023-09-29	21:17:33	Error: https://www.google.com is not allowed by CORS

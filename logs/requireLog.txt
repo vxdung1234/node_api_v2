@@ -1,2 +1,17 @@
 c13805b0-3c6b-4c6e-bb67-ca1401f16120	2023-09-28	23:23:14	GET	undefined	/
 99aa64b8-af2a-4994-aac3-d10e373908e0	2023-09-28	23:23:25	GET	undefined	/kjhgf
+71d6dccd-d7ce-4a17-a3dd-0ce2f22418f4	2023-09-28	23:41:38	GET	undefined	/
+9a1a7d31-830e-45f0-a7dc-2428412fae08	2023-09-28	23:42:28	OPTIONS	https://www.google.com	/
+2637ff59-caca-42bb-acc4-fa8893ba1cef	2023-09-28	23:42:28	GET	https://www.google.com	/
+ffe7d724-340f-4bb9-a7ac-f183f709d865	2023-09-28	23:43:42	OPTIONS	https://www.google.com	/
+6dbdd20b-3519-408d-bf00-30a018a54193	2023-09-28	23:43:42	GET	https://www.google.com	/
+f174f1b6-01f4-4d70-8505-744f60a178dc	2023-09-29	20:57:41	GET	undefined	/
+6db829b6-2dba-4257-aa2a-1ee8e7d68021	2023-09-29	20:57:43	GET	undefined	/favicon.ico
+2d9979ac-768e-48e4-8d03-61b2452c7c03	2023-09-29	20:58:37	GET	undefined	/kjhgf
+0723655b-04f5-4f81-a1e6-70764e29e1e1	2023-09-29	20:58:38	GET	undefined	/favicon.ico
+5fe27636-a8fd-439a-aa0f-c00bdbef44a2	2023-09-29	21:17:02	GET	undefined	/
+d37181ec-0dd2-4261-88a4-67bd39289ddc	2023-09-29	21:17:04	GET	undefined	/favicon.ico
+5f0c120a-d474-43b4-8de4-267c068134ad	2023-09-29	21:17:33	OPTIONS	https://www.google.com	/
+d1081c97-514a-450c-86d9-1d003acba490	2023-09-29	21:17:33	GET	https://www.google.com	/
+f1b4f7ee-c347-4403-be06-d7c1974d23a5	2023-09-29	21:17:47	OPTIONS	https://www.google.com	/
+90a90641-a52c-417a-afed-71ba5739083d	2023-09-29	21:17:47	GET	https://www.google.com	/
