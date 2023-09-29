@@ -27,13 +27,13 @@ const handleRegister = async (req, res) => {
         }
         const result = await User.create({
             username: username,
-            password: password,
+            password: passwordhashed,
             roles: roles
         })
         if(!result) {
-            return res.json({ status: 500, message: 'Cannot create user'});    
+            return res.json({ status: 500, message: `Cannot create ${username}`});    
         }
-        res.json({ status: 200, message: 'Created user'});
+        res.json({ status: 200, message: `Created ${username}`});
     } catch (err) {
         return res.json({ status: 500, message: err.message});
     }

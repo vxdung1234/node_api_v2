@@ -31,6 +31,7 @@ app.use('^/$|/index(.html)?', (req, res) => {
 
 // Routes
 app.use('/register', require('./routes/register'));
+app.use('/login', require('./routes/login'));
 
 // Use for error routes
 app.all('*', (req, res) => {
