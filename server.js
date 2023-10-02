@@ -9,6 +9,7 @@ const { requireLogger, errorLogger} = require('./middleware/logEvents');
 const credential = require('./middleware/credential');
 const corsOptions = require('./config/corsOptions');
 const cors = require('cors');
+const verifyJWT = require('./middleware/verifyJWT');
 
 const POST = process.env.POST || 3500;
 
@@ -34,6 +35,10 @@ app.use('/register', require('./routes/register'));
 app.use('/login', require('./routes/login'));
 app.use('/refresh-token', require('./routes/refreshToken'));
 app.use('/logout', require('./routes/logout'));
+
+app.use(verifyJWT);
+// API
+
 
 // Use for error routes
 app.all('*', (req, res) => {
