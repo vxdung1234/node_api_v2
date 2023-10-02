@@ -40,6 +40,7 @@ app.use('/logout', require('./routes/logout'));
 app.use(verifyJWT);
 // API
 app.use('/api/employees', require('./routes/api/employee'));
+app.use('/api/users', require('./routes/api/user'));
 
 // Use for error routes
 app.all('*', (req, res) => {
