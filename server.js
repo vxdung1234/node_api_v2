@@ -36,9 +36,10 @@ app.use('/login', require('./routes/login'));
 app.use('/refresh-token', require('./routes/refreshToken'));
 app.use('/logout', require('./routes/logout'));
 
+// Use middleware verify JWT for API
 app.use(verifyJWT);
 // API
-
+app.use('/api/employees', require('./routes/api/employee'));
 
 // Use for error routes
 app.all('*', (req, res) => {

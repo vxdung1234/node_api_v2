@@ -1,7 +1,7 @@
 
 const verifyRoles = (...allowedRoles) => {
     return (req, res, next) => {
-        if(!res.roles) {
+        if(!req.roles) {
             return res.json({ status: 401 })
         }
         const result = req.roles.map(role => allowedRoles.includes(role)).find(val => val===true);

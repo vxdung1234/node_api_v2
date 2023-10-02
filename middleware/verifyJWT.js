@@ -1,12 +1,12 @@
-const jwr = require('jsonwebtoken');
+const jwt = require('jsonwebtoken');
 
-const verifyJWT = (req, res, next) => {
+const verifyJWT = async (req, res, next) => {
     const authHeader = req.headers.authorization || req.headers.Authorization;
     if(!authHeader.startsWith('Bearer ')) {
         return res.json({status: 401});
     }
     const accessToken = authHeader.split(' ')[1];
-    jwr.verify(
+    jwt.verify(
         accessToken,
         process.env.ACCESS_TOKEN_SECRET_KEY,
         (err, decoded) => {
